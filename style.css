@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+
+}
+
+
+
+body {
+    background-color: #A268F8;
+
+}
+
+#logoMoeda {
+    width: 280px;
+    display: block;
+    margin: auto;
+}
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    margin: auto;
+    padding: 10px 24px 24px;
+
+}
+
+label {
+    width: 80px;
+    height: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #777777;
+
+
+
+}
+
+select {
+    width: 327px;
+    height: 48px;
+    border: 1px;
+    border-radius: 4px;
+    border-color: #BBBBBB;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #555555;
+    margin: 10px auto;
+
+}
+
+input {
+    width: 327px;
+    height: 48px;
+    border: 1px;
+    border-radius: 4px;
+    border-color: #BBBBBB;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #555555;
+    margin: 5px auto 1px;
+}
+
+button {
+    width: 100px;
+    display: block;
+    border-color: #d0d0d700;
+    border-radius: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 10px auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#botao {
+    width: 80px
+}
+
+section {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    border: 2px solid #8C52FF;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.valores-to-convert, .Converted {
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #555555;
+    margin: 10px;
+}
+
+#seta {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+
+}
+
+.bandeira {
+    width: 60px;
+
+}
+
+@media screen and (max-width: 390px) {
+    body {
+      display: block;
+        margin: auto;
+      
+    }
+
+    #logoMoeda {
+        width: 180px;
+        display: block;
+        margin: auto;
+    }
+
+    button {
+    width: 80px;
+    display: block;
+    border-color: #d0d0d700;
+    border-radius: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 10px auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#botao {
+    width: 60px
+}
+main {
+    width: 350px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    margin: auto;
+    padding: 14px 14px 14px;
+}
+
+select {
+    width: 325px;
+    height: 40px;
+    border: 1px;
+    border-radius: 4px;
+    border-color: #BBBBBB;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #555555;
+    margin: 10px auto;
+}
+input {
+    width: 325px;
+    height: 40px;
+    border: 1px;
+    border-radius: 4px;
+    border-color: #BBBBBB;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #555555;
+    margin: 5px auto 1px;
+}
+
+section {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid #8C52FF;
+    border-radius: 20px;
+    padding: 10px auto 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        display: block;
+        margin: auto;
+      
+    }
+
+    #logoMoeda {
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+
+    button {
+    width: 60px;
+    display: block;
+    border-color: #d0d0d700;
+    border-radius: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 10px auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#botao {
+    width: 40px
+}
+
+main {
+    width: 300px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    margin: auto;
+    padding: 10px 24px 24px;
+}
+
+select {
+    width: 255px;
+    height: 48px;
+    border: 1px;
+    border-radius: 4px;
+    border-color: #BBBBBB;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #555555;
+    margin: 10px auto;
+}
+input {
+    width: 255px;
+    height: 48px;
+    border: 1px;
+    border-radius: 4px;
+    border-color: #BBBBBB;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #555555;
+    margin: 5px auto 1px;
+}
+
+section {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid #8C52FF;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+}
