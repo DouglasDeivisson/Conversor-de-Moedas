@@ -4,9 +4,18 @@ const convertButton = document.querySelector(".Converter")
 const currencySelect1 = document.querySelector(".selectValues1")
 const currencySelect2 = document.querySelector(".selectValues2")
 const valor = document.querySelector(".valores") // valor 1 
-// valor 2
+const alternar = document.querySelector("#alternar") // botao de alternar
 
+alternar.addEventListener("click", inverterSelecionados)
 
+function inverterSelecionados(idOrigem, idDestino) {
+
+    const valorTemp = currencySelect1.value;
+    currencySelect1.value = currencySelect2.value;
+    currencySelect2.value = valorTemp;
+    changeCurrency1()
+    changeCurrency()
+}
 
 let taxas = {};
 
