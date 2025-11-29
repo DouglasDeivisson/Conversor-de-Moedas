@@ -159,22 +159,39 @@ section {
         display: block;
         margin: auto;
     }
-
-    button {
-        width: 80px;
-        display: block;
-        border-color: #d0d0d700;
-        border-radius: 100%;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 18px;
-        margin: 10px auto;
-        padding: 5px;
-        cursor: pointer;
+    .Converter {
+    width: 80px;
+    display: block;
+    border-color: #d0d0d700;
+    border-radius: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 10px auto;
+    padding: 5px;
+    cursor: pointer;
     }
+
 
     #botao {
         width: 60px
+    }
+
+    #alternar {
+        width: 55px;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        border-color: #59595a00;
+        margin: 10px auto;
+        border-radius: 30%;
+        cursor: pointer;
+    }
+
+    #botaoA {
+        transform: rotate(90deg);
+        width: 45px;
+        height: 50px;
     }
 
     main {
@@ -243,20 +260,39 @@ section {
         margin: auto;
     }
 
-    button {
-        width: 60px;
-        display: block;
-        border-color: #d0d0d700;
-        border-radius: 100%;
+    #alternar {
+        width: 55px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        border-color: #59595a00;
         font-size: 16px;
         font-weight: 700;
         line-height: 18px;
         margin: 10px auto;
-        padding: 5px;
+        border-radius: 30%;
         cursor: pointer;
     }
 
-    #botao {
+    #botaoA {
+        transform: rotate(90deg);
+        width: 45px;
+        height: 40px;
+    }
+    .Converter {
+    width: 60px;
+    display: block;
+    border-color: #d0d0d700;
+    border-radius: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 10px auto;
+    padding: 5px;
+    cursor: pointer;
+    }
+
+     #botao {
         width: 40px
     }
 
